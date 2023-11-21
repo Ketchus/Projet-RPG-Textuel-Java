@@ -1,4 +1,18 @@
 # Projet-RPG-Textuel-Java
-j'ai fais 2 projets :
-  - un tous marche sauf que je ne sais pas pourquoi au bout du 2ème mouvement le jeux plante(ProjetRPG)
-  - ça identifie bien la fin et le fait de manger des monstre le seul problème est la disparition du P(player) quand il rencontre un obstacle ou un monstre mais sinon aucun probleme il réaparait juste apres au prichain mouvement(ProjetRPG-2)
+Dans mon projet, il y a 4 package:
+  - game qui contient le main, le map
+    
+  - weapons contenant les classes Weapon, WeaponShop, Bow, Sword et Axe
+      - les classes Bow, Sword et Axe assigne respectivement les noms(Bow, Sword et Axe), dommages infligés par l'arme et la representation ASCII de l'arme
+      - la classe weapons contien le constructeur de chaque arme
+      - et la classe weaponshop permet de display les armes et acheter
+        
+  - monstre_obstacles contenant les classes Destructible, Obstacle et Monstre
+      - la classe Destructible contien le constructeur pour les dégats reçus et infligé ainsi que la vie(envie ou pas) des monstres et obstacles
+      - la classe Obstacle initialise les hp perdu face à un obstacle
+      - la classe Monster initialise les hp perdu face à un monstre
+        
+  - et enfin player qui contient les classes Players, ActionPlayer, Sorcerer, Human et Elf
+      - la classe Player contient le constructeur d'un joueur
+      - les classes Sorcerer, Human et Elf sont des types de joueurs et ont des hp(points de vie) différents selon leur types
+      - et la classe ActionPlayer contient toutes les actions qu'un joueuer peut effectuer(se déplacer, choisire une arme,...)
