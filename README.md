@@ -2,7 +2,7 @@
 Dans mon projet, il y a 4 package:
   - game qui contient le main, le map
       - le main c'est le coeur du RPG, j'appele ici mes méthodes pour faire vivre le jeu
-      - le map est la carte du jeu je place ici le joueur position fixe(en bas à gauche) et les obstacle, monstres et destination finale position aléatoire et j'mplémentes des méthodes pour que le joueur réagissent différemment selon ce qu'il rencontre.
+      - le map est la carte du jeu je place ici le joueur position fixe(en bas à gauche) et les obstacle, monstres et destination finale position aléatoire et j'mplémentes des méthodes pour que le joueur réagissent différemment selon ce qu'il     rencontre.
     
     
   - weapons contenant les classes Weapon, WeaponShop, Bow, Sword et Axe
